@@ -87,5 +87,11 @@
     "props": {
       "skuID": "342"
     }
+  },
+  "product-identifier.product":{
+    "props": {
+    "product-identifier__label":"Prueba",
+    "product-identifier__value":"Hola"
+    }
   }
 }
