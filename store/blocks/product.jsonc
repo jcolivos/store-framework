@@ -17,8 +17,7 @@
   },
   "flex-layout.row#product": {
     "children": [
-      "product-name",
-      "product-identifier.product",
+      "product-name",      
       "product-price", 
       "product-images",           
       "buy-button#product",
