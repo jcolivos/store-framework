@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "breadcrumb",      
-      "product-quantity"
+      "product-quantity",
+      "flex-layout.row#main"
     ]
   },
   "flex-layout.row#main": { 
@@ -25,7 +26,7 @@
       "flex-layout.row#qty-sku"
     ]
   },
-  "flex-layout.col#left": {
+  "flex-layout.col#left": { 
     "children": [
       "product-images"
     ]
