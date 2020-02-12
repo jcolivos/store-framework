@@ -1,6 +1,17 @@
 {
   "store.product": {
     "children": [
+      "flex-layout.row#product",
     ]
-  }
+  },
+  "flex-layout.row#product": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
 }
