@@ -75,5 +75,10 @@
       "sku-selector",
       "product-quantity"
     ]
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
   }
 }
