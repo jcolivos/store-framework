@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "breadcrumb",                  
-      "flex-layout.row#main"      
+      "flex-layout.row#main",
+      "shelf.relatedProducts"  
     ]
   },
   "flex-layout.row#main": { 
@@ -26,7 +27,7 @@
   },
   "flex-layout.col#left": { 
     "children": [
-      "product-images"
+      "stack-layout#brand"
     ]
   },
   "flex-layout.col#right": {
@@ -86,5 +87,17 @@
     "props": {
       "skuID": "342"
     }
-  }
+  },
+  "stack-layout#brand": {
+    "children": [
+      "product-images",
+      "product-brand"
+    ]
+  },
+  "product-brand": {
+    "props": {
+      "displayMode": "logo",
+      "height": 30
+    }
+  },
 }
