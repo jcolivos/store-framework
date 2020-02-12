@@ -69,7 +69,10 @@
   },
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": false
+      "hideImpossibleCombinations": false,
+      "initialSelection":"empty",
+      "showVariationsLabels":true,
+      "showVariationsErrorMessage":true
     }
   },
   "flex-layout.row#qty-sku": {
