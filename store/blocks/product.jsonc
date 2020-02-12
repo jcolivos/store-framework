@@ -73,7 +73,7 @@
       "initialSelection":"empty",
       "showVariationsLabels":true,
       "showVariationsErrorMessage":true,
-      "showValueForVariation": true
+      "showValueForVariation": "image"
     }
   },
   "flex-layout.row#qty-sku": {
