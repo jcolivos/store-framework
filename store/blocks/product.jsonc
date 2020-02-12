@@ -1,9 +1,9 @@
 {
   "store.product": {
     "children": [
-      "breadcrumb",      
+      "breadcrumb",            
       "product-quantity",
-      "flex-layout.row#main"
+      "flex-layout.row#main"      
     ]
   },
   "flex-layout.row#main": { 
@@ -86,12 +86,6 @@
   "shipping-simulator": {
     "props": {
       "skuID": "342"
-    }
-  },
-  "product-identifier.product":{
-    "props": {
-    "product-identifier__label":"Prueba",
-    "product-identifier__value":"Hola"
     }
   }
 }
