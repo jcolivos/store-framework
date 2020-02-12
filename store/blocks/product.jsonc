@@ -57,7 +57,7 @@
   "buy-button#product": {
     "props": {
       "isOneClickBuy": true,
-      "showTooltipOnSkuNotSelected": false
+      "showTooltipOnSkuNotSelected": true
     }
   }
 }
