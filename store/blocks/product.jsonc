@@ -23,7 +23,8 @@
       "product-identifier.product",
       "buy-button#product",
       "sku-selector",
-      "flex-layout.row#qty-sku"
+      "flex-layout.row#qty-sku",
+      "shipping-simulator"
     ]
   },
   "flex-layout.col#left": { 
@@ -80,6 +81,11 @@
   "breadcrumb": {
     "props": {
       "showOnMobile": true
+    }
+  },
+  "shipping-simulator": {
+    "props": {
+      "skuID": "342"
     }
   }
 }
