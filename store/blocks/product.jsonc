@@ -17,14 +17,13 @@
   },
   "flex-layout.row#product": {
     "children": [
-      "product-images",
-      "product-price",
       "product-name",
       "product-identifier.product",
+      "product-price", 
+      "product-images",           
       "buy-button#product",
-      "sku-selector",
-      "flex-layout.row#qty-sku",
-      "shipping-simulator"
+      "sku-selector"
+      
     ]
   },
   "flex-layout.col#left": { 
@@ -37,7 +36,9 @@
       "product-name",
       "product-identifier.product",
       "product-price",
-      "buy-button"
+      "flex-layout.row#qty-sku",
+      "buy-button",
+      "shipping-simulator"
     ],
     "props":{
       "verticalAlign": "middle",
